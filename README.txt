@@ -7,3 +7,5 @@ Later I might look in to adding jQuery to make it more interactive.
 
 I do not have a end result in which I would like to accomplish, this is rather a project where I 
 add when I want to add an effect or an object. This is a never ending project.  
+
+在天空中增加了一些星星。
