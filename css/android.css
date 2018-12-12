@@ -1,9 +1,11 @@
-div{margin:0;padding:0;}
-div div{background:#A4CA39;position:relative;}
+
 body{
 	background-color: rgb(20,20,30);
 }
-.android{
+div{margin:0;padding:0;}
+
+.android{	
+	position:relative;
 	width:202px;
 	height:334px;
 	margin:100px auto;
@@ -12,10 +14,11 @@ body{
 	-moz-transform: rotate(30deg);
 }
 .head{
+	position:relative;
 	width: 220px;
 	height: 100px;
 	top: 32px;
-
+	background:#A4CA39;
 	border-radius: 110px 110px 0 0;
 	-moz-border-radius:110px 110px 0 0;
 	-webkit-border-radius:110px 110px 0 0;
@@ -44,7 +47,7 @@ body{
 	height: 50px;
 	position: absolute;
 	top: -34px;
-
+	background:#A4CA39;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -62,15 +65,17 @@ body{
 	-moz-transform: rotate(30deg);
 }
 .body{
+	position:relative;
 	width: 220px;
 	height: 184px;
 	top: 40px;
-
+	background:#A4CA39;
 	border-radius: 0 0 25px 25px;
 	-moz-border-radius: 0 0 25px 25px;
 	-webkit-border-radius: 0 0 25px 25px;
 }
 .l_arm,.r_arm,.l_leg,.r_leg{
+	background:#A4CA39;
 	width: 50px;
 	position: absolute;
 	-webkit-transition:all 0.1s ease-in;
